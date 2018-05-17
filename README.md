@@ -152,4 +152,4 @@ when you learn vim it's best to use a more vanilla config. if helps you focus on
 
 # Web 
 
- >> it's a bird, its a plane, no its.... [underd0g](students.ship.edu/df5076/about.html)
+ >> it's a bird, its a plane, no its.... [underd0g](https://students.ship.edu/df5076/about.html)
