@@ -149,6 +149,8 @@ when you learn vim it's best to use a more vanilla config. if helps you focus on
 - [match it](https://github.com/isa/vim-matchit) - extended word and regex matching
 - [lightline](https://github.com/itchyny/lightline.vim) - custom status line (for much rice)
 - [fugitive](https://github.com/tpope/vim-fugitive) - fast git integration
+
+
 ![vim](https://github.com/underd0g1/.nix-/blob/master/vim.gif)
 # Web 
 
