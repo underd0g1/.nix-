@@ -12,7 +12,7 @@
  ░▓ about  ▓ Linux config files
  ░▓ author ▓ underd0g <underd0g>
  ░▓ code   ▓ https://github.com/underd0g1/
- ░▓ mirror ▓ students.ship.edu/df5076/about.html
+ ░▓ mirror ▓ http://www.underd0g.co
  ░▓▓▓▓▓▓▓▓▓▓
  ░░░░░░░░░░
 
