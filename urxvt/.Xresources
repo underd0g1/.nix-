@@ -1,0 +1,74 @@
+!nixio by eti @rizon
+URxvt.font:xft:minecraftia:pixelsize=14
+URxvt.boldfont:xft:minecraftia-Bold:pixelsize=15
+*.URxvt.scrollBar: false
+URxvt.borderColor: #000000
+URxvt*cursorColor: #FFA500
+
+!   ██████  ██████  ██   ██ ██████  █████   █████  ██████  █████  ██████
+!  ██░░░░  ██░░░░██░██  ░██░░██░░████░░░██ ██░░░██░░██░░████░░░██░░██░░██
+! ░░█████ ░██   ░██░██  ░██ ░██ ░░░██  ░░ ░███████ ░██ ░░░███████ ░██ ░░
+!  ░░░░░██░██   ░██░██  ░██ ░██   ░██   ██░██░░░░  ░██   ░██░░░░  ░██
+!  ██████ ░░██████ ░░██████░███   ░░█████ ░░██████░███   ░░██████░███
+! ░░░░░░   ░░░░░░   ░░░░░░ ░░░     ░░░░░   ░░░░░░ ░░░     ░░░░░░ ░░░
+!  r  e  a  d     c  o  d  e     l  i  k  e     a     w  i  z  a  r  d
+!
+! sourcerer by xero harrison (http://xero.nu)
+!  ├─ based on sorcerer by Jeet Sukumaran (http://jeetworks.org)
+!  └─ based on mustang by Henrique C. Alves (hcarvalhoalves@gmail.com)
+
+! █▓▒░ scorcerer colors
+*.foreground:   #665c64
+*.background:   #121212
+
+! black
+*.color0:       #2b3135
+*.color8:       #4c5356
+
+! red
+*.color1:       #8fa1b3
+*.color9:       #8fa1b3
+
+! green
+*.color2:       #EC1850
+*.color10:      #EC1850
+
+! yellow
+*.color3:       #4f5b66
+*.color11:      #4f5b66
+
+! blue
+*.color4:       #607a86
+*.color12:      #607a86
+
+! magenta
+*.color5:       #80757e
+*.color13:      #80757e
+
+! cyan
+*.color6:       #B19CD9
+*.color14:      #B19CD9
+
+! white
+*.color7:       #deded6
+*.color15:      #deded6
+
+URxvt.perl-lib:              /home/scp1/dev/urxvt-extensions
+URxvt.perl-ext-common:       default,clipboard,url-select,keyboard-select,bell-command,matcher
+URxvt.keysym.C-u:            perl:url-select:select_next
+URxvt.perl-ext:              selection,mark-yank-urls
+URxvt.url-select.launcher:   /usr/lib/firefox/firefox
+URxvt.urlLauncher:           /usr/lib/firefox/firefox
+URxvt.url-select.underline:  false
+URxvt.keysym.C-Up:           perl:keyboard-select:activate
+URxvt.keysym.M-s:            perl:keyboard-select:search
+URxvt*urgentOnBell: yes
+
+
+URxvt.matcher.rend.0:        Italic fg5
+
+rofi.color-enabled: true
+rofi.color-window: #393939, #393939, #268bd2
+rofi.color-normal: #393939, #ffffff, #393939, #268bd2, #ffffff
+rofi.color-active: #393939, #268bd2, #393939, #268bd2, #205171
+rofi.color-urgent: #393939, #f3843d, #393939, #268bd2, #ffc39c
