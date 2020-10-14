@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/usr/local/src'
-let g:netrw_dirhist_2='/usr/local/src/dwm-6.0'
-let g:netrw_dirhist_3='/home/hide4/Documents/Javascript/buddy/config'
